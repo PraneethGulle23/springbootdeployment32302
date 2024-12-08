@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+.activities-container {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.dashboard-header {
+  background: linear-gradient(90deg, #431f1f, #ca1a1a);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px solid #9b59b6; /* Adds a bottom border */
+}
+
+.user-name {
+  margin-top: 10px;
+}
+
+.dashboard-nav {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-nav ul {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.dashboard-nav ul li {
+  margin: 0 20px;
+}
+
+.dashboard-nav ul li a {
+  color: #882fc7; /* Changed link color for consistency */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.dashboard-nav ul li a:hover {
+  color: #9b59b6; /* Color change on hover */
+}
+
+.active-link {
+  color: #9b59b6;
+  font-weight: bold;
+}
+
+.dashboard-main {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  overflow-y: auto;
+}
+
+.dashboard-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #6a0dad;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; /* Set background to white for sections */
+}
+
+.dashboard-section h2 {
+  color: #6a0dad;
+  border-bottom: 2px solid #9b59b6;
+  padding-bottom: 10px;
+}
+
+.course-item, .skill-item {
+  padding: 10px;
+  background: #f3f4f6;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.dashboard-footer {
+  background: linear-gradient(90deg, #431f1f, #ca1a1a);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
