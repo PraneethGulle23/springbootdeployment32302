@@ -11,7 +11,7 @@
 	<groupId>com.klef.jfsd.springboot1</groupId>
 	<artifactId>SpringBootMVCSDPProject-1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>SpringBootMVCSDPProject-1</name>
 	<description>SDP Project</description>
 	<url/>
