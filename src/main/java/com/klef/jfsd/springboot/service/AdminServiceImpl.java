@@ -26,9 +26,9 @@ public class AdminServiceImpl implements AdminService
 	}
 
 	@Override
-	public Admin checkAdminLogin(String uname, String pwd) 
-	{
-		return adminRepository.checkAdminLogin(uname, pwd);
+	public Admin checkAdminLogin(String uname, String pwd) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 }
